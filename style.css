@@ -40,11 +40,11 @@
 
     .info {
         color: rgb(91, 124, 152);
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 800;
         position: absolute;
         top: 30%;
-        width: 40%;
+        width: 30%;
         left: 100px;
     }
 
