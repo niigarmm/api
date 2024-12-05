@@ -19,6 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector(".no").classList.add("no-hide");
   }, 7400);
 });
+const link = document.querySelector(".yes");
+link.onclick = ()=>{
+  window.location.assign("./home.html")
+}
 let clickCount = 0;
 const maxClicks = 5;
 document.querySelector(".no").onclick = () => {
